@@ -1,0 +1,6 @@
+framework module Pods_Parking_CaddieUITests {
+  umbrella header "Pods-Parking CaddieUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

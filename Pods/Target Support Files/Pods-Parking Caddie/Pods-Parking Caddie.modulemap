@@ -1,0 +1,6 @@
+framework module Pods_Parking_Caddie {
+  umbrella header "Pods-Parking Caddie-umbrella.h"
+
+  export *
+  module * { export * }
+}

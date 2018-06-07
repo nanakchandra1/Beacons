@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ProfilePicCell" rowHeight="180" id="KGk-i7-Jjw" customClass="ProfilePicCell" customModule="Parking_Caddie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="469" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="469" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hgi-eG-jwi">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="169"/>
+                        <color key="backgroundColor" red="0.1764705882" green="0.094117647060000004" blue="0.031372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VgJ-dY-UPJ">
+                        <rect key="frame" x="0.0" y="0.0" width="469" height="169"/>
+                        <color key="backgroundColor" red="0.25897648358585856" green="0.24735773412634671" blue="0.22887124995847519" alpha="0.87179418103448281" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="signup_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="V8i-qa-SnE">
+                        <rect key="frame" x="176" y="23" width="118" height="118"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="V8i-qa-SnE" secondAttribute="height" id="PvI-RF-Apd"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR4-2h-3K1">
+                        <rect key="frame" x="176" y="23" width="118" height="118"/>
+                    </button>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5zG-4t-7CY">
+                        <rect key="frame" x="0.0" y="169" width="469" height="10"/>
+                        <color key="backgroundColor" red="0.99607843139999996" green="0.80000000000000004" blue="0.035294117649999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="BKB-0U-ZdC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="hR4-2h-3K1" firstAttribute="height" secondItem="V8i-qa-SnE" secondAttribute="height" id="99v-yA-KDe"/>
+                    <constraint firstItem="V8i-qa-SnE" firstAttribute="height" secondItem="Hgi-eG-jwi" secondAttribute="height" multiplier="0.7" id="AgF-wn-oeU"/>
+                    <constraint firstAttribute="trailing" secondItem="5zG-4t-7CY" secondAttribute="trailing" id="EIK-h7-zTp"/>
+                    <constraint firstItem="hR4-2h-3K1" firstAttribute="centerX" secondItem="V8i-qa-SnE" secondAttribute="centerX" id="EnT-91-B2i"/>
+                    <constraint firstItem="V8i-qa-SnE" firstAttribute="centerX" secondItem="Hgi-eG-jwi" secondAttribute="centerX" id="EyU-jO-Is0"/>
+                    <constraint firstItem="hR4-2h-3K1" firstAttribute="centerY" secondItem="V8i-qa-SnE" secondAttribute="centerY" id="FGS-9W-YlQ"/>
+                    <constraint firstItem="hR4-2h-3K1" firstAttribute="width" secondItem="V8i-qa-SnE" secondAttribute="width" id="NVE-72-13g"/>
+                    <constraint firstItem="V8i-qa-SnE" firstAttribute="centerY" secondItem="Hgi-eG-jwi" secondAttribute="centerY" constant="-3" id="Rs0-nH-olj"/>
+                    <constraint firstItem="VgJ-dY-UPJ" firstAttribute="trailing" secondItem="Hgi-eG-jwi" secondAttribute="trailing" id="Whb-4h-q5R"/>
+                    <constraint firstItem="VgJ-dY-UPJ" firstAttribute="leading" secondItem="Hgi-eG-jwi" secondAttribute="leading" id="YGh-0N-E9K"/>
+                    <constraint firstItem="VgJ-dY-UPJ" firstAttribute="bottom" secondItem="Hgi-eG-jwi" secondAttribute="bottom" id="Zeh-LH-Oa1"/>
+                    <constraint firstItem="5zG-4t-7CY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="adv-Cz-Y89"/>
+                    <constraint firstItem="Hgi-eG-jwi" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="gxe-Fz-5dK"/>
+                    <constraint firstAttribute="trailing" secondItem="Hgi-eG-jwi" secondAttribute="trailing" id="mGc-FD-OaW"/>
+                    <constraint firstItem="Hgi-eG-jwi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="tHZ-Fd-hGw"/>
+                    <constraint firstItem="VgJ-dY-UPJ" firstAttribute="top" secondItem="Hgi-eG-jwi" secondAttribute="top" id="tMJ-4o-X0o"/>
+                    <constraint firstAttribute="bottom" secondItem="Hgi-eG-jwi" secondAttribute="bottom" constant="10" id="uJp-LC-xwv"/>
+                    <constraint firstAttribute="bottom" secondItem="5zG-4t-7CY" secondAttribute="bottom" id="xEs-im-FkZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="VgJ-dY-UPJ" id="N3l-mF-dln"/>
+                <outlet property="coverImage" destination="Hgi-eG-jwi" id="TOO-mO-hJd"/>
+                <outlet property="profileImage" destination="V8i-qa-SnE" id="2Np-BU-ZbI"/>
+                <outlet property="profilePicEditBtn" destination="hR4-2h-3K1" id="KUB-0m-Jl0"/>
+                <outlet property="profilePicHightContraint" destination="AgF-wn-oeU" id="20N-cW-hKW"/>
+            </connections>
+            <point key="canvasLocation" x="355.5" y="293"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="signup_placeholder" width="83" height="83"/>
+    </resources>
+</document>

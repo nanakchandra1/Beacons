@@ -1,0 +1,93 @@
+PODS:
+  - Alamofire (4.7.0)
+  - Braintree (4.12.0):
+    - Braintree/Card (= 4.12.0)
+    - Braintree/Core (= 4.12.0)
+    - Braintree/PayPal (= 4.12.0)
+    - Braintree/UI (= 4.12.0)
+  - Braintree/3D-Secure (4.12.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Apple-Pay (4.12.0):
+    - Braintree/Core
+  - Braintree/Card (4.12.0):
+    - Braintree/Core
+  - Braintree/Core (4.12.0)
+  - Braintree/PaymentFlow (4.12.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/PayPal (4.12.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.12.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.12.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.12.0)
+  - Braintree/UI (4.12.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.12.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/Venmo (4.12.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+  - BraintreeDropIn (6.1.0):
+    - BraintreeDropIn/DropIn (= 6.1.0)
+  - BraintreeDropIn/DropIn (6.1.0):
+    - Braintree/Card (~> 4.11)
+    - Braintree/Core (~> 4.11)
+    - Braintree/PaymentFlow (~> 4.11)
+    - Braintree/UnionPay (~> 4.11)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (6.1.0)
+  - Crashlytics (3.10.1):
+    - Fabric (~> 1.7.5)
+  - EstimoteSDK (4.27.0)
+  - Fabric (1.7.5)
+  - GoogleMaps (2.6.0):
+    - GoogleMaps/Maps (= 2.6.0)
+  - GoogleMaps/Base (2.6.0)
+  - GoogleMaps/Maps (2.6.0):
+    - GoogleMaps/Base
+  - KILabel (1.0.1)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - Braintree
+  - Braintree/3D-Secure
+  - Braintree/Apple-Pay
+  - Braintree/PayPal
+  - Braintree/Venmo
+  - BraintreeDropIn
+  - Crashlytics
+  - EstimoteSDK
+  - Fabric
+  - GoogleMaps
+  - KILabel
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 907e0a98eb68cdb7f9d1f541a563d6ac5dc77b25
+  Braintree: c29956dab4533fb5966fe32cda1fca56e74d9d57
+  BraintreeDropIn: 2e8bba4facf6cc925176637030454d8308223b95
+  Crashlytics: aee1a064cbbf99b32efa3f056a5f458d846bc8ff
+  EstimoteSDK: 61935c7fbcb9fe93b97b0360351aef66fb1c338d
+  Fabric: ae7146a5f505ea370a1e44820b4b1dc8890e2890
+  GoogleMaps: 42f91c68b7fa2f84d5c86597b18ceb99f5414c7f
+  KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 4fd268c75046054b11e181c4e05d8d234ddec741
+
+COCOAPODS: 1.3.1

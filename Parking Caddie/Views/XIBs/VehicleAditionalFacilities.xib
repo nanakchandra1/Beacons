@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="AvenirLTStd-Light.otf">
+            <string>AvenirLTStd-Light</string>
+            <string>AvenirLTStd-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="VehicleAditionalFacilities" rowHeight="59" id="KGk-i7-Jjw" customClass="VehicleAditionalFacilities" customModule="Parking_Caddie">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="59"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="58"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KhM-G2-Bq6">
+                        <rect key="frame" x="10" y="0.0" width="417" height="58"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqV-Sy-j26">
+                                <rect key="frame" x="10" y="0.0" width="150" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="nSp-0Q-vaJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lHy-TE-zo8">
+                                <rect key="frame" x="170" y="0.0" width="247" height="58"/>
+                                <fontDescription key="fontDescription" name="AvenirLTStd-Light" family="Avenir LT Std" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OqV-Sy-j26" firstAttribute="top" secondItem="KhM-G2-Bq6" secondAttribute="top" id="84r-Xl-L0W"/>
+                            <constraint firstItem="OqV-Sy-j26" firstAttribute="leading" secondItem="KhM-G2-Bq6" secondAttribute="leading" constant="10" id="Jdt-Fd-yq8"/>
+                            <constraint firstItem="lHy-TE-zo8" firstAttribute="top" secondItem="KhM-G2-Bq6" secondAttribute="top" id="W7n-mX-aWj"/>
+                            <constraint firstItem="lHy-TE-zo8" firstAttribute="leading" secondItem="OqV-Sy-j26" secondAttribute="trailing" constant="10" id="bQN-3y-lG0"/>
+                            <constraint firstAttribute="bottom" secondItem="OqV-Sy-j26" secondAttribute="bottom" id="l7y-h4-Yfd"/>
+                            <constraint firstAttribute="trailing" secondItem="lHy-TE-zo8" secondAttribute="trailing" id="lLU-zw-4zB"/>
+                            <constraint firstAttribute="bottom" secondItem="lHy-TE-zo8" secondAttribute="bottom" id="m1b-w7-8JC"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="1" green="0.82352941180000006" blue="0.015686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="KhM-G2-Bq6" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6Yw-Sx-eXB"/>
+                    <constraint firstItem="KhM-G2-Bq6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Rwp-pW-bqX"/>
+                    <constraint firstAttribute="bottom" secondItem="KhM-G2-Bq6" secondAttribute="bottom" id="qd8-gE-Ppe"/>
+                    <constraint firstAttribute="trailing" secondItem="KhM-G2-Bq6" secondAttribute="trailing" constant="10" id="wJZ-0W-TUk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bgView" destination="KhM-G2-Bq6" id="QFe-Oi-gxB"/>
+                <outlet property="facilityCost" destination="lHy-TE-zo8" id="Kwn-nu-nbs"/>
+                <outlet property="facilityNameLbl" destination="OqV-Sy-j26" id="6A3-hX-XlK"/>
+            </connections>
+            <point key="canvasLocation" x="130.5" y="189.5"/>
+        </tableViewCell>
+    </objects>
+</document>

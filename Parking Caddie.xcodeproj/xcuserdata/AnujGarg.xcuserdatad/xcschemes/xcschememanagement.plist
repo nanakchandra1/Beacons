@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Parking Caddie.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0CA0A1DB1C86C720008757FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CA0A1F21C86C727008757FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>0CA0A1FD1C86C727008757FE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

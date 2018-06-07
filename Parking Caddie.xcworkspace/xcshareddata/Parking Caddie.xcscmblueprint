@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3A0F86766EC841DA6BBF833A486FA8D6F701365D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "32231B4F66B388A51EFB6E60D19733A670F8EC76" : 0,
+    "3A0F86766EC841DA6BBF833A486FA8D6F701365D" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EE2432D6-302C-4E15-AFDC-D6CD26B4B948",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "32231B4F66B388A51EFB6E60D19733A670F8EC76" : "Nanak\/hhhh\/MadicalApp\/",
+    "3A0F86766EC841DA6BBF833A486FA8D6F701365D" : "Parking%20Caddie%20\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Parking Caddie",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Parking Caddie.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/nanakchandra1\/housestaff_handbook.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "32231B4F66B388A51EFB6E60D19733A670F8EC76"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git%20clone%20https:\/\/nanakchandra1@bitbucket.org\/nanakchandra1\/parking-caddie.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3A0F86766EC841DA6BBF833A486FA8D6F701365D"
+    }
+  ]
+}
